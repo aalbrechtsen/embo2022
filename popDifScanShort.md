@@ -97,7 +97,7 @@ $ANGSD -b  CEU.filelist  -anc $ANC -out ceu $FILTERS $OPT -ref $REF
 ```
 The run time is a couple of minutes
 
-If it takes to long then you can copy the results using this command:
+If it takes too long then you can copy the results using this command:
 
 ```
 cp $ThePath/run/yri.saf* .
