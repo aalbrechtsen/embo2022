@@ -150,7 +150,7 @@ qqchi(s)
 pval<-1-pchisq(s,1)
 
 ## read positions (hg38)
-p<-read.delim("EUsmall.sites.info",colC=c("factor","integer","integer"),head=F)
+p<-read.delim("EUsmall.sites.info",colC=c("factor","integer","integer"),head=F,as.is=F)
 
 names(p)<-c("chr","pos","keep")
 
