@@ -383,7 +383,7 @@ head -n1 all.files
  - Based on this and the frequency estimates for the first locus that you looked at earlier, what does NGSadmix estimate the allele frequency to be at the first locus in that population?
 
 
-*** Plot the admixture proportion estimates
+### Plot the admixture proportion estimates
 Finally, try to make a simple plot the estimated admixture proportions for all the individuals by opening the statistical program called R (which you do by typing "R" in the terminal and pressing enter) and then copy pasting the following code:
 
 ```
