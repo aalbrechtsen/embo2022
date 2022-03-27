@@ -102,7 +102,7 @@ Plot the results in R
  cov <- as.matrix(read.table("EUsmall.cov"))
 
  e<-eigen(cov)
- ID<-read.table("eu1000g.sample.Info",head=T)
+ ID<-read.table("eu1000g.sample.Info",head=T,as.is=F)
  plot(e$vectors[,1:2],col=ID$POP)
 
  legend("topleft",fill=1:4,levels(ID$POP))
