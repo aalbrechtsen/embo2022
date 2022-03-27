@@ -288,6 +288,3 @@ legend("topleft",fill=1:3,c("YRI","JPT","CEU"))
 
 Find out what genes is in this region by going to the [UCSC browser](https://genome.ucsc.edu/index.html). Choose Genome browser. Choose human GRCh37/hg19 and find the region. Read about this gene on wikipedia and see if this fits PBS results. 
 
-
-### additional
-A longer version of this exercises can be found [here](popDifScan.md)
