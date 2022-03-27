@@ -225,9 +225,7 @@ First open a terminal and login to the server.
 Next - before running any analyses - you need to set paths to the programs and the data you will use. Do this by pasting the following into your terminal window:
 
 ```
-# NB this must be done every time you open a new terminal
 
-ThePath=/ricco/data/PhDCourse
 
 # Set path to ANGSD program
 ANGSD=$ThePath/prog/angsd/angsd
