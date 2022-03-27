@@ -117,7 +117,7 @@ Since the European individuals in 1000G are not simple homogeneous disjoint popu
 Now let try to use the PC to infer selection along the genome based on the PCA
 
 ```
-$PCANGSD -b $EU1000 -o EUsmall -selection -sites_save -minMaf 0 -t 10
+$PCANGSD -b $EU1000 -o EUsmall --selection --sites_save --minMaf 0 -t 10
 # crate file with position and chromosome
  paste <(zcat $ThePath/PCangsd/data/eu1000g.small.beagle.gz| cut -f 1 | sed 's/\_/\t/g' | sed 1d ) EUsmall.sites  > EUsmall.sites.info
 ```
