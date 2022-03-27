@@ -49,7 +49,7 @@ First lets look at the variability of the data in the CEU.
 Estimate tajimas theta (pi) in 10k windows
 
 ```console
-$SS/selscan --pi --vcf $ceuVCF --map $MAP --out ceuLCT --threads 8 --pi-win 10000
+selscan --pi --vcf $ceuVCF --map $MAP --out ceuLCT --threads 8 --pi-win 10000
 ```
 
 You can plot the results in R e.g.
@@ -97,7 +97,7 @@ Use the browser to see how Tajima's D perform on the same data
 Lets see if the haplotype homozygosity does a better job. Run IHS using the command
 
 ```console
-$SS/selscan --ihs --vcf $ceuVCF --map $MAP --out ceuLCT --threads 8
+selscan --ihs --vcf $ceuVCF --map $MAP --out ceuLCT --threads 8
 ```
 
 The analysis will take a couple of minutes. If you cannot wait then you can copy the results with the command
@@ -116,7 +116,7 @@ The output colums are:
 This statistics will be affected by the frequency of the SNPs therefore we have to normalize in frequency bins. The default in 100 bins 
 
 ```console
-$SS/norm --ihs --files ceuLCT.ihs.out 
+norm --ihs --files ceuLCT.ihs.out 
 ```
 
 The number of bins in too high for this data set since we do not have enough SNPs for each bin of allele frequencies. Therefore, redo the analysis where  you  reduce the number of bins to 20 with the - -bins 20 option.
@@ -145,7 +145,7 @@ abline(v=causalSite$iHS,col="red")
 Lets try to use the West Africans (YRI) to normalize the IHS using XpEHH
 
 ```console
-$SS/selscan --xpehh --vcf $ceuVCF --map $MAP --vcf-ref $yriVCF   --out ceuLCT --threads 8
+selscan --xpehh --vcf $ceuVCF --map $MAP --vcf-ref $yriVCF   --out ceuLCT --threads 8
 ```
 It will take about 10mins so you should probably copy the results instead
 
@@ -157,7 +157,7 @@ cp $ThePath/run/ceuLCT.xpehh* .
 We also have to normalize this
 
 ```console
-$SS/norm --xpehh --files ceuLCT.xpehh.out
+norm --xpehh --files ceuLCT.xpehh.out
 ```
 
 again you can plot the results in R.
