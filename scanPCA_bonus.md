@@ -183,7 +183,7 @@ Inbreeding in admixed samples is usually not possible to estimate using standard
 Let's try to estimate the inbreeding coefficient of the samples using the average allele frequency
 
 ```
-$PCANGSD -b $GL1000Genomes -o IB1 --inbreedSamples -iter 1
+$PCANGSD -b $GL1000Genomes -o IB1 --inbreedSamples --iter 1
 ```
 
 join names and results, sort the values and look at the results
