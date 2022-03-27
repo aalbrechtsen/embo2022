@@ -147,9 +147,10 @@ Lets try to use the West Africans (YRI) to normalize the IHS using XpEHH
 ```console
 selscan --xpehh --vcf $ceuVCF --map $MAP --vcf-ref $yriVCF   --out ceuLCT --threads 8
 ```
-It will take about 10mins so you should probably copy the results instead
+It will take about 5 mins and you can choose to copy the results instead
 
 ```console
+#copy results instaed of waiting                                  
 cp $ThePath/run/ceuLCT.xpehh* .
 ```
 
