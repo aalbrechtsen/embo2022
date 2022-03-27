@@ -132,7 +132,7 @@ head EUsmall.sites.info
 plot the results of the selection scan 
 
 ```
-library(RcppCNPy) # Numpy library for R
+library(RcppCNPy,lib="/home/albrechtsen/R/x86_64-pc-linux-gnu-library/4.1/") # Numpy library for R
 
 ## function for QQplot
 qqchi<-function(x,...){
