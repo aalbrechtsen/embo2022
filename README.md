@@ -2,7 +2,9 @@
 
 ## Tuesday afternoon - Natural selection and selection scan 
 ### slides ()
+
 [Intro](https://github.com/aalbrechtsen/embo2022/blob/main/procido2022selectionIntro.pdf)
+
 [PCA and selection](https://github.com/aalbrechtsen/embo2022/blob/main/PCA%20and%20selection%20scan.pdf)
 
 ### Exercises
