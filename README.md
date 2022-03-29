@@ -14,7 +14,7 @@
 
 ## Wednesday morning - Selection scan between populations
 ### slides
-(Selection from population differences)https://github.com/aalbrechtsen/embo2022/blob/main/procida2022selectionPopDif.pdf
+[Selection from population differences](https://github.com/aalbrechtsen/embo2022/blob/main/procida2022selectionPopDif.pdf)
 
 ### Exercises
 [Selection scan based on population differences (discrete structure)](popDifScanShort.md)
