@@ -227,7 +227,7 @@ note the maximum observed values for both the pairwise fst and the PBS
 
 
 
-## none random region
+## non-random region
 Lets do the same for not so randomly selection 1Mb region of on chr 5. 
 Remember to close R
 
