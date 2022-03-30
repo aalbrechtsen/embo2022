@@ -13,13 +13,13 @@ First lets get an overview of the whole genome by making a manhattan plot
   - Press “Run analysis”. 
 
 Note which chromosomes have extreme values. A high value of PBS means a long branch length. 
-To view a single chromosome – go to PBS region
+To view a single chromosome – go to PBS region tab
 
 Chose the chromosome with the highest PBS value and set the starting position to -1 to get the whole chromosome
 
-Zoom in to the peak by changing start and end position. 
+Zoom in to the peak by changing start and end position.  
 
-  - Locate the most extreme regions of the genome and zoom in
+  - Locate the most extreme regions of the genome and zoom in enought for your to see the genes in the regions
   - Identify the Gene with the highest PBS value.  
   - What does the gene do?
   
