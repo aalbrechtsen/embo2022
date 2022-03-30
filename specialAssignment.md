@@ -1,7 +1,7 @@
 ## special assignment
 
 [PBS browwser](http://popgen.dk:3838/anders/popgen2016/selectionScan/)
-Let see if we can do better than the Tajima’s D by using the PBS statistics. First select 3 populations from 
+Let see how PBS performs on high quality data (perfect genotype call for 100 individuals per populations) . First select 3 populations from 
   - NAT - Native Americans (PERU+Mexico)
   - CHB – East Asian - Han Chinese
   - CEU – Central Europeans
